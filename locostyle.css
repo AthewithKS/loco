@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    padding-left: 8px;
+    padding-right: 16px;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 45px;
+    width: 176px;
+}
+
+.logo {
+    background-image: url("loco logo.png");
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8px;
+}
+.search-input{
+    width: 25%;
+    height: 33px;
+    background-color: rgb(68, 71, 73);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: rgb(221, 219, 216);
+    margin-left: 20%;
+    border: none;
+    display: flex;
+    padding-left:8px;
+}
+.search-icon{
+    width: 40px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 42, 43);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:rgb(255, 255, 255) ;
+    border: none;
+}
+.coin{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    justify-content: center;
+    margin-left: 20%;
+    color: gold;
+    display: flex;
+}
+.download{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    display: flex;
+}.stream-now{
+    height: 30px;
+    width: 120px;
+    align-items: center;
+    border-radius: 5%;
+    background-color: rgb(76, 0, 253);
+    justify-content: center;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 1rex;
+}.profile{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    display: flex;
+
+}.screen{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.leftbar{
+    width: 14rem;
+    height: 100vh;
+    background-color: black;
+    border-right: 1px solid whitesmoke;
+    margin: 0;
+    padding: 0;
+}.main-menu{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid whitesmoke;
+    text-align: left;
+}.main-menu ul{
+    color: whitesmoke;
+    list-style: none;
+}.main-menu ul li{
+    width: 100%px;
+    padding-top: 15px ; ;
+    height: 50px;
+}.main-menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}.active,.main-menu ul li:hover{
+    background-color: rgba(69, 113, 233, 0.473);
+    border-radius: 0;
+}.streamers{
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+}.streamers ul{
+    color: whitesmoke;
+    list-style: none;
+}.streamers ul li{
+    width: 100%px;
+    padding-top: 10px ; ;
+    height: 35px;
+}.streamers ul li a{
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}.streamers ul li:hover{
+    background-color: rgba(69, 113, 233, 0.473);
+    border-radius: 0;
+
+}.video-main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding:0;
+    margin: 0;
+    
+    color: antiquewhite;
+}.video-div1{
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+}.live1{
+    background-color: black;
+    height: 50vh;
+    width: 50%;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+.live2{
+    background-color: black;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+}.live22{
+    background-color: black;
+    height: 50vh;
+    width: 50%;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+}.live2-1{
+        background-image: url("live1.png");
+        background-size: 100% 100%;
+        width: 97%;
+        height: 25vh;
+        margin: 5px;
+}.live2-2{
+        background-image: url("live2.png");
+        background-size: 100% 100%;
+        width: 97%;
+        height: 20vh;
+        margin: 5px;
+        margin-top: 15px;
+}
+.live23{
+    background-color: black;
+    height: 50vh;
+    width: 50%;
+    padding: 10px;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}.live2-3{
+    background-image: url("live3.png");
+    background-size: 100% 100%;
+    width: 97%;
+    height: 25vh;
+    margin: 5px;
+}.live2-4{
+    background-image: url("live4.png");
+    background-size: 100% 100%;
+    width: 97%;
+    height: 20vh;
+    margin: 5px;
+    margin-top: 15px;
+}.mostviewed{
+    display: flex;
+    height: 40vh;
+    background-color: black;
+    width: 100%;    
+    margin-top: 25px;
+}.live3-1{background-image: url("live1.png");
+    background-size: 100% 100%;
+    width: 25%;
+    height: 25vh;
+    margin: 5;
+    margin-top: 15px;
+    padding: 0;
+
+}.live3-2{
+    background-image: url("live2.png");
+        background-size: 100% 100%;
+        width: 25%;
+        height: 25vh;
+        margin: 5px;
+        margin-top: 15px;
+}.live3-3{
+    background-image: url("live3.png");
+    background-size: 100% 100%;
+    width: 25%;
+    height: 25vh;
+    margin: 5px;
+    margin-top: 15px;
+}.live3-4{
+    background-image: url("live4.png");
+    background-size: 100% 100%;
+    width: 25%;
+    height: 25vh;
+    margin: 5px;
+    margin-top: 15px;
+}
+.follow{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(41, 37, 37);
+    margin: 0;
+    padding:30px;
+    display: flex;
+    color: white;
+}
